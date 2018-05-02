@@ -1,11 +1,7 @@
 # postgrest
 
- postgrest.conf
+$PGRST_DB_URI = "host=host user=user port=5432 dbname=dbname password=pass"
 
-db-uri = "host=host user=user port=5432 dbname=dbname password=pass"
+PGRST_DB_SCHEMA = "public"
 
-db-schema = "public"
-
- The database role to use when no client authentication is provided.
-
-db-anon-role = "web_anon"
+PGRST_DB_ANON_ROLE = "your db role"
